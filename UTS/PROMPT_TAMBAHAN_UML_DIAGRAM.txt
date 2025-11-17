@@ -1,0 +1,5 @@
+Prompt 1
+buatkan semua file dan seluruh isi folder lengkapnya
+
+Prompt 2
+buatkan file ADR-architecture-decisions dan Final-UML-diagram dalam bentuk pdf dan terpisah

@@ -1,0 +1,43 @@
+Prompt 1 
+anda adalah arsitek system, buat class diagram UML untuk system akademik
+dengan komponen berikut:
+- user sebagai base class (Mahasiswa, Dosen, Admin, Calon Mahasiswa)
+- course dengan atribut kode, nama, SKS, prasyarat
+- enrollment yang hubungkan mahasiswa dan course
+- schedule dengan hari, jam, ruangan
+- grade untuk nilai mahasiswa
+
+Prompt 2
+buat use case diagram untuk system akademik dengan actor:
+Mahasiswa, Dosen, Admin Akademik.
+use case Utama: pendaftaran KRS, Approve KRS, input nilai,
+generate traptnskrip. tandai relasi include/extend jika ada.
+
+Prompt 3
+buat sequence diagram untuk proses validasi KRS:
+1. Mahasiswa Submit KRS
+2. sistem cek prasyarat mata kuliah
+3. sistem cek batas sks (max 24)
+4. sistem cek jadwal bentrok
+5. jika lulus validasi, status KRS jadi 'pending approval'
+6. notifikasi dikirim ke dosen PA
+gunakan format plantUML.
+
+Prompt 4
+Sebagai senior software architect, desain class diagram untuk modul KRS dengan aturan:
+- SKS maksimal 24 per semester
+- cek prasyarat mata kuliah
+- prevent double enrollment
+Buat class: KRSManager, ValidationRule, courseprerequisite.
+gunakan strategy pattern untuk validasi. output mermaid.
+
+Prompt 5
+buat sequence diagram untuk scenario:
+Mahasiswa scan QR presensi, sistem validasi jadwal kuliah hari ini, catat kehadiran, kirim notifikasi ke dosen.
+Aktor: Mahasiswa, Sistem Presensi, Database, NotificationService.
+
+Prompt 6
+audit class diagram berikut terhadap prinsip SOLID:
+(Isi Diagram Dari Prompt Sebelumnya)
+Identifikasi pelanggaran dan beri rekomendasi refactor.
+focus pada single responsibility dan dependency inversion.

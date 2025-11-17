@@ -1,0 +1,11 @@
+repo-structure/
+├── class-diagram.mmd (atau .puml)
+├── usecase-diagram.mmd
+├── sequence-pemb.mmd
+├── sequence-mk.mmd
+├── prompts/
+│   └── usage-log.md (format sesuai charter)
+├── docs/
+│   ├── ADR-architecture-decisions.pdf
+│   └── Final-UML-diagram.pdf
+└── README.md (ringkasan desain + link diagram)
